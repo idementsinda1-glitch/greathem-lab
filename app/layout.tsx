@@ -2,8 +2,7 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css"; // Ce fichier gère le style général
-import { CartProvider } from "@/context/CartContext";
-
+import { CartProvider } from '../context/CartContext';
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
